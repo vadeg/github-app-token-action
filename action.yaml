@@ -1,0 +1,16 @@
+name: get-app-token
+description: Get Github Application token for Github API
+inputs:
+  app_private_key:
+    description: 'Application private key'
+    required: true
+  application_id:
+    description: 'Application identifier'
+    required: true
+outputs:
+  gh_access_token:
+    description: Access token for Github API
+runs:
+  using: "node12"
+  main: 'dist/index.js'
+
