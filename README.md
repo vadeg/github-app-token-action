@@ -1,4 +1,4 @@
-# Get GitHub Application Token action
+# GitHub Application Token Action
 
 The GitHub Action which provides a token of an installed GitHub application. The token can be used later to perform
 operations using [GitHub API](https://docs.github.com/en/rest).
